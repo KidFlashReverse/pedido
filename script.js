@@ -46,8 +46,8 @@ function naoo(){
             break;
         }
     }
-    for(i = 0; i > 1; i++){
-        if(width > window.screen.width){
+    for(i = 0; i > -1; i++){
+        if(width > window.screen.width - 50){
             width = parseInt(Math.random()*1000);
         }else{
             break;
