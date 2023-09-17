@@ -2,6 +2,7 @@ var tela_1 = document.getElementById('tela_1');
 var tela_2 = document.getElementById('tela_2');
 var tela_3 = document.getElementById('tela_3');
 var tela_4 = document.getElementById('tela_4');
+var tela_cruzada = document.getElementById('tela_cruzada');
 var span = document.getElementById('span');
 var img = document.getElementById('img');
 var nao = document.getElementById('nao');
@@ -59,4 +60,26 @@ function naoo(){
     }
 
     nao.style.cssText = "position: absolute; top: "+heigth+"px; left: "+width+"px;";
+}
+
+function cruzadinha(){
+    setTimeout(function() {
+        setTimeout(function() {
+            tela_1.parentNode.removeChild(tela_1);
+            tela_cruzada.style.cssText = "display: block;";
+        }, 500)
+        tela_1.style.cssText = "animation: sair 0.5s;";
+    }, 100)
+
+}
+
+function  termo(){
+    setTimeout(function() {
+        setTimeout(function() {
+            tela_1.parentNode.removeChild(tela_1);
+            tela_termo.style.cssText = "display: block;";
+        }, 500)
+        tela_1.style.cssText = "animation: sair 0.5s;";
+    }, 100)
+
 }

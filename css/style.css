@@ -19,7 +19,7 @@ h1{
 h2{
     font-size: 1.3em;
 }
-.tela_2, .tela_3, .tela_4{
+.tela_2, .tela_3, .tela_4, .tela_cruzada{
     display: none;
     animation: entrar 0.5s;
 }

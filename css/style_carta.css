@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: pink;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.book {
+    position: relative;
+    left: 15%;
+    width: 700px;
+    height: 500px;
+}
+
+.page {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    background-color: white;
+    transform-origin: left center;
+    transition: transform 0.7s ease-in-out;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Adicione z-index para controlar a ordem de empilhamento */
+}
+
+.page:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.page:first-child {
+    z-index: 2; 
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 0.95em;
+    text-align: justify;
+}
+.afastar{
+    margin: 10px 0;
+    font-size: 0.95em;
+    text-align: justify;
+    text-indent: 15%;
+}
+
+
+button{
+    position: absolute;
+    z-index: 3;
+    top: 460px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    padding: 4px;
+    border: 0;
+    border-radius: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+.b1{
+    left: 00%;
+}
+.b2{ 
+    left: 200px;
+}

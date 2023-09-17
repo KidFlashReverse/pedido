@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 100vw;
+    width: 200vw;
+    font-family: 'Open Sans', sans-serif;
+    justify-items: center;
+    object-position: center;
+    background-color: pink;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.tela_cruzada{
+    display: flex;
+    height: 100vw;
+    width: 200vw;
+    font-family: 'Open Sans', sans-serif;
+    justify-items: center;
+    object-position: center;
+}
+.tela_cruzada{
+    display: none;
+    animation: entrar 0.5s;
+}
+.tela_1 button{
+    width: 100px;
+    position: relative;
+    top: 20%;
+    left: 200px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    padding: 4px;
+    border: 0;
+    border-radius: 20px;
+    background-color: red;
+}
+.cruzadinha{ 
+    position: relative;
+    display: flex;
+    z-index: 2;
+    top: 150px;
+    margin-left: 18vw;
+}
+input{
+    width: 30px;
+    height: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    object-position: center;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 10vw;
+}
+.span2{
+    position: absolute;
+    left: 0vw;
+    top: 10vh;
+}
+span{
+    position: relative;
+    text-align: center;
+}
+.p1, .p3, .p4, .p7, .p8{
+    display: flex;
+    position: relative;
+}
+.text1{
+    margin-top: 1px;
+    margin-right: 3px;
+}
+button{
+    background-color: white;
+    padding: 1px;
+    cursor: pointer;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+}
+.p2{
+    position: relative;
+    left: -96px;
+    top: -33.7px;
+}
+.text2 button{
+    width: 30px;
+    margin-left: 2px;
+}
+.p3{
+    position: relative;
+    left: -285px;
+    top: 96px;
+}
+.p4{
+    position: relative;
+    left: -472px;
+    top: 160px;
+}
+.p5{
+    position: relative;
+    left: -695px;
+    top: 33px;
+}
+.p6{
+    position: relative;
+    left: -603px;
+    top: 125px;
+}
+.p7{
+    position: relative;
+    left: -731px;
+    top: 32px;
+}
+.p8{
+    position: relative;
+    left: -926px;
+    top: 256px;
+}
