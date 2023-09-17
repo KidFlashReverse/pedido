@@ -1,7 +1,7 @@
 var n = 0;
 
 function handleKeyUp(event) {
-    if (event.key === "Enter") {
+    if (event.key === "Enter" || event.keyCode === 13) {
         if(n){    
             if(document.querySelector('#p'+n+'l'+'1').value != '' && document.querySelector('#p'+n+'l'+'2').value != '' && document.querySelector('#p'+n+'l'+'3').value != '' && document.querySelector('#p'+n+'l'+'4').value != ''&& document.querySelector('#p'+n+'l'+'5').value != ''){
                 var checar = [1, 2, 1, 1];
@@ -123,6 +123,7 @@ function handleKeyUp(event) {
 document.addEventListener("keyup", handleKeyUp);
 
 function termo(a, b){
+    
     if(a === 1){
         n = 1;
         if(document.querySelector('#p1l' + b).value != ""){
