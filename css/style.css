@@ -71,6 +71,21 @@ img{
     display: none;
 }
 
+.foto{
+    width: 320px;
+    height: 300px;
+    background-color: black;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.data{
+    color: white;
+    height: 105%;
+    display: flex;
+    align-items: flex-end;
+}
+
 @keyframes blockEntrar {
     0%{
         opacity: 0;
